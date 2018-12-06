@@ -1,0 +1,30 @@
+.keyboard_button {
+    width: 50px;
+    height: 50px;
+    line-height: 23px;
+    background: #abc;
+    border: none;
+    /*border-radius: 4px;*/
+    color: #345;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.keyboard_button_disabled{
+    width: 50px;
+    height: 50px;
+    line-height: 23px;
+    background: #abc;
+    border: none;
+    border-radius: 4px;
+    color: #345;
+    margin: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.keyboard_button:hover{
+    transform: scale(1.1);
+}
